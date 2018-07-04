@@ -1,4 +1,4 @@
-# thd_implementation
+# THD Implementation
 
 Source code for a THD implementation based on Matlab.
 This code simulate a signal and samples it, applyies a window, zero-padding and estimates frequency components. After all, the THD calculation is done.
@@ -15,7 +15,7 @@ You can also change the simulated signal characteristics, if you want.
 
 ## Results
 
-The results at high sampling periods (greatter than 2 seconds) was equivalent to *thd* function of Matlab. In lower sampling periods (0.8 ~ 1.4 seconds) the proposed method show best results, compared to exactly thd value (calculated before).
+The results at high sampling periods (greatter than 2 seconds) was equivalent to *thd* function of Matlab. In lower sampling periods (0.8 ~ 1.4 seconds) the proposed method show better results when compared to exactly thd value (calculated before).
 
 ## Contribution
 
