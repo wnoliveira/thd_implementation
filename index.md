@@ -1,6 +1,4 @@
----
-permalink: /main_page
----
+
 
 # THD Implementation
 
