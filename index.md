@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# THD Implementation
 
-You can use the [editor on GitHub](https://github.com/wnoliveira/thd_implementation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Source code for a THD implementation based on Matlab.
+This code simulate a signal and samples it, applyies a window, zero-padding and estimates frequency components. After all, the THD calculation is done.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Ps: This code is part of an paper wich was submitted for review. As soon this article was accepted, the link and reference will be posted here.
 
-### Markdown
+## Usage
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This scripts was written in Matlab 2016a. You must run the main script, **thd_proposed_method**. Other scripts are only support functions.
 
-```markdown
-Syntax highlighted code block
+In thd_proposed_method, you will find a configuration field, wich is related to sampling frequency, period, selection of frequency of interest, window function and a possible center lob compensation (for amplitude estimation).
 
-# Header 1
-## Header 2
-### Header 3
+You can also change the simulated signal characteristics, if you want.
 
-- Bulleted
-- List
+## Results
 
-1. Numbered
-2. List
+The results at high sampling periods (greatter than 2 seconds) was equivalent to *thd* function of Matlab. In lower sampling periods (0.8 ~ 1.4 seconds) the proposed method show better results when compared to exactly thd value (calculated before).
 
-**Bold** and _Italic_ and `Code` text
+## Contribution
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wnoliveira/thd_implementation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Any contribution is welcome. Please, if you doesn't understand something, or find some bug, feel free to contact me.
