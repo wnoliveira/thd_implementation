@@ -1,4 +1,8 @@
+# Pages
 
+Just a few tests of github pages.
+- [Error 404](https://wnoliveira.github.io/thd_implementation/anyPaeThatDoesNotExsists)
+- [Html page function exploration](https://wnoliveira.github.io/thd_implementation/explore_html_features) (credits to http://histo.io/)
 
 # THD Implementation
 
