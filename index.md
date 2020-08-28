@@ -1,3 +1,7 @@
+---
+permalink: /main_page
+---
+
 # THD Implementation
 
 Source code for a THD implementation based on Matlab.
